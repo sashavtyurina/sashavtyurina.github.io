@@ -2,13 +2,13 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul, footer ul, .pub .source ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li, footer ul li, .pub .source ul li{
     display: inline;
     margin-right: 20px;
 }
@@ -23,13 +23,18 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding-top: 10px;
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 2px solid #d5d5d5;
     font-size: .8em;
 }
 
@@ -41,3 +46,52 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.pub {
+    border-top: 1px solid #d5d5d5;
+    padding-top: 20px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+.pub .title {
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #5e5e5e;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+.pub .authors {
+    font-size: 1.1em;
+    color: #676767;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+.pub .venue {
+    font-size: 1.1em;
+    color: #878787;
+    font-style: italic;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.news {
+    border-top: 1px solid #d5d5d5;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.news .content{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+.news .date {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.footnote {
+    text-align: right;
+    font-size: 1.1em;
+}
+
