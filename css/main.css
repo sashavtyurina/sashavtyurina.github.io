@@ -2,16 +2,41 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul, .pub .source ul {
+
+nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    /*background-color: #f2f2f2;*/
+    /*border-bottom: 1px solid #ccc;*/
+}
+
+nav ul, nav a, footer ul, .pub .source ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li, .pub .source ul li{
+
+nav ul li, nav a, footer ul li, .pub .source ul li{
     display: inline;
-    margin-right: 20px;
+    margin-left: 20px;
 }
+
+nav ul {
+    float: right;
+}
+
+nav ul.name, nav ul.name li {
+    float: left;
+    margin-left: 0px;
+    padding: 0px;
+    /*background-color: green;*/
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
+}
+
 a {
     text-decoration: none;
     color: #999;
@@ -38,14 +63,14 @@ footer {
     font-size: .8em;
 }
 
-ul.posts {
+/*ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
-}
-
+}*/
+/*
 ul.posts li {
     list-style: none;
-}
+}*/
 
 .pub {
     border-top: 1px solid #d5d5d5;
@@ -99,4 +124,30 @@ ul.posts li {
 .faqquestion {
     font-size: 2em;
     font-family: Georgia, serif;
+}
+
+/*.postList {
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+}*/
+
+.post {
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+}
+
+p.blog {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+.advice {
+    border-top: 2px solid #d5d5d5;
+    border-bottom: 2px solid #d5d5d5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.9em;
+    line-height: 1.4em;
+    color: #333;
 }
