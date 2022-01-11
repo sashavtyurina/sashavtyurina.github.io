@@ -155,7 +155,7 @@ p.blog {
 .portrait {
     float: left;
     margin-left: 0px;
-    padding: 0px;
+    padding-right: 20px;
     /*background-color: green;*/
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     /*font-size: 1em;    */
